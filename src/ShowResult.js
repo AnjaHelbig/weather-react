@@ -59,7 +59,7 @@ export default function ShowResult(props) {
           </li>
           <li>
             {" "}
-            <strong> Wind </strong>: {wind}km/h{" "}
+            <strong> Wind Speed </strong>: {wind}km/h{" "}
           </li>
           <img
             src={`https://openweathermap.org/img/wn/${icon}@2x.png`}
