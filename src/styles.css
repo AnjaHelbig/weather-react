@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inputForm {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.inputForm input[type="search"] {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-right: 10px; /* Abstand zum Button */
+  width: 250px;
+}
+
+.inputForm input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1459a1;
+  color: white;
+  cursor: pointer;
+}
+
+.inputForm input[type="submit"]:hover {
+  background-color: #3e86d2;
+}
+
+.list {
+  list-style: none;
+  padding: 20px;
+  margin: 30px auto;
+  width: 300px;
+  text-align: left;
+}
+
+.list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.list strong {
+  color: #333;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-style: italic;
+}
