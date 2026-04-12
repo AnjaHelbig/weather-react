@@ -4,12 +4,14 @@ import "./index.css";
 import App from "./App";
 import InputForm from "./InputForm";
 import reportWebVitals from "./reportWebVitals";
+import Footer from "./Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
     <InputForm />
+    <Footer />
   </React.StrictMode>,
 );
 

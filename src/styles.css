@@ -53,3 +53,17 @@
   color: red;
   font-style: italic;
 }
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.gitHubLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.gitHubLink:hover {
+  text-decoration: underline;
+}
