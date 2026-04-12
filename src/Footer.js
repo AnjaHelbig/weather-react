@@ -10,6 +10,7 @@ export default function Footer() {
       <a
         href="https://github.com/AnjaHelbig/weather-react"
         target="_blank"
+        rel="noreferrer"
         className="gitHubLink"
       >
         {" "}
